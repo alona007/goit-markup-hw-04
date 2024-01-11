@@ -78,6 +78,28 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
 }
 
 .header-menu-list {
@@ -97,22 +119,15 @@ img {
   padding: 24px 0;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-}
-
 .address {
   font-style: normal;
+  margin-left: auto;
+  padding: 24px 0;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-}
-
-.address {
-  padding: 24px 0;
 }
 
 .address-link {
@@ -121,6 +136,7 @@ img {
   font-weight: 400;
   line-height: 1.5px;
   letter-spacing: 0.02em;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -273,6 +289,23 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.social-div {
+}
+
+.social-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-li {
+  width: 40px;
+  height: 40px;
+}
+
+.soc-icon {
 }
 
 /*fourth-section*/
