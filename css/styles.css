@@ -132,6 +132,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link {
@@ -140,7 +141,6 @@ img {
   font-weight: 400;
   line-height: 1.5px;
   letter-spacing: 0.02em;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
