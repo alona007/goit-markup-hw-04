@@ -426,7 +426,7 @@ img {
   padding: 100px 0;
 }
 
-.social-footer {
+.social-container {
   display: flex;
   align-items: baseline;
 }
