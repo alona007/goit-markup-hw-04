@@ -428,11 +428,6 @@ img {
   align-items: baseline;
 }
 
-.social-footer {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-studio {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -455,6 +450,7 @@ img {
 }
 
 .social-container {
+  margin-right: 120px;
 }
 
 .social-paragraph {
