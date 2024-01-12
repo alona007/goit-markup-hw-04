@@ -350,9 +350,6 @@ img {
 
 .list-item-fourth {
   width: calc((100% - 48px) / 3);
-  min-width: 200px;
-  border: 1px solid #ccc;
-  cursor: pointer;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
