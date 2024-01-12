@@ -382,7 +382,6 @@ img {
   overflow: hidden;
   min-width: 200px;
   margin: 10px;
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-item {
@@ -417,6 +416,9 @@ img {
 
 .portfolio:hover .text-title-section-fourth {
   transform: translateY(0%);
+}
+
+.portfolio:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
