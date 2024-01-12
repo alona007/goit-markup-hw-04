@@ -426,9 +426,8 @@ img {
   padding: 100px 0;
 }
 
-.social-container {
-  display: flex;
-  align-items: baseline;
+.container {
+  margin-right: 120px;
 }
 
 .footer-studio {
