@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 p,
 h1,
 h2,
@@ -430,7 +424,11 @@ img {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
+}
+
+.social-footer {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-studio {
@@ -452,6 +450,9 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin-top: 17.5px;
+}
+
+.social-container {
 }
 
 .social-paragraph {
