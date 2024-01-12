@@ -233,6 +233,26 @@ img {
   letter-spacing: 0.02em;
 }
 
+.icon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
 /*third-section*/
 .third-section {
   padding: 120px 0 120px;
