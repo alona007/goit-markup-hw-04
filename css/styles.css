@@ -67,13 +67,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
 }
 
-.header-studio {
+.webstudio {
+  margin-right: 76px;
   color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-studio {
 }
 
 .header-menu-list {
@@ -439,13 +441,6 @@ img {
 
 .footer-studio {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 16px;
 }
 
 .text-footer {
