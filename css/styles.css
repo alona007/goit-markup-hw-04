@@ -428,6 +428,11 @@ img {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-studio {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
