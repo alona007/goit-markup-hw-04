@@ -433,6 +433,10 @@ img {
   align-items: baseline;
 }
 
+.footer-logo-p {
+  margin-right: 120px;
+}
+
 .footer-studio {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
