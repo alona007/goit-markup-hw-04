@@ -114,8 +114,6 @@ img {
 
 .address {
   font-style: normal;
-  margin-left: auto;
-  padding: 24px 0;
 }
 
 .address-list {
@@ -151,6 +149,10 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .title-first-section {
@@ -424,10 +426,6 @@ img {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
-}
-
-.container {
-  margin-right: 120px;
 }
 
 .footer-studio {
